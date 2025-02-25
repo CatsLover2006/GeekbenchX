@@ -1,0 +1,10 @@
+Package: ca.litten.geekbenchx
+Name: GeekbenchX
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This tweak fixes connectivity issues for Geekbench 2 and 3. At least, I think it does.
+Maintainer: Hanabi <chancelorne@icloud.com>
+Author: Hanabi <chancelorne@icloud.com>
+Section: Tweaks
+Icon: file:///Library/Application%20Support/ca.litten.geekbenchx/gbx.png
+Depends: mobilesubstrate
