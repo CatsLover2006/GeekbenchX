@@ -4,7 +4,7 @@ BUNDLE_NAME = ca.litten.geekbenchx
 
 include $(THEOS)/makefiles/common.mk
 
-ARCHS=armv7 armv6
+ARCHS=armv6 armv7
 
 TWEAK_NAME = GeekbenchX
 

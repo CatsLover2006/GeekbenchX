@@ -7,7 +7,6 @@
 		<key>Bundles</key>
 		<array>
 			<string>ca.primatelabs.geekbench2</string>
-			<string>com.primatelabs.geekbench3</string>
 		</array>
 	</dict>
 </dict>
