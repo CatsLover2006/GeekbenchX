@@ -1,4 +1,4 @@
-TARGET := iphone:clang:latest:7.0
+TARGET := iphone:clang:7.1:7.0
 INSTALL_TARGET_PROCESSES = SpringBoard
 BUNDLE_NAME = ca.litten.geekbenchx
 
@@ -8,8 +8,8 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = GeekbenchX
 
-iTunesStoreX_FILES = Tweak.x CustomURLProtocol.m
-iTunesStoreX_CFLAGS = -fobjc-arc
+GeekbenchX_FILES = Tweak.x
+GeekbenchX_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
